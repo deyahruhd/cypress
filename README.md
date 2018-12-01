@@ -65,13 +65,12 @@ Also note that shift can be held down if the numbers layer is active, so the sym
 |-----------+-----------+-----------+------+------+------|     |------+------+------+------+------+----------------|
 | Backlight |     Z     |     F9    | F10  | F11  | F12  |     |   #  |   *  |   ,  |   .  |   /  | Unswap Gui/Alt |
 |-----------+-----------+-----------+------+------+------|     |------+------+------+------+------+----------------|
-|   Ctrl    |Rec  Macro1|Rec  Macro2| Alt  |Lower |Space |     | Space|Raise | Left | Down |  Up  |     Right      |
+|   Ctrl    |Rec  Macro1|Rec  Macro2| GUI  |Lower |Space |     | Space|Raise | Left | Down |  Up  |     Right      |
 `--------------------------------------------------------'     `---------------------------------------------------'
 ```
 
 #### Layout regarding macro recording 
 If a macro is being recorded by the user, the Play Macro/Rec Macro keys will stop the recording of the macro, regardless of whatever layer is active.
-Also note that for the numbers layer, Shift can still be pressed, so the symbols layer can be indirectly accessed by 
 
 ## Other notes
 I've designed the right half of the keyboard to contain the most relevant symbols for the programming languages that I primarily use (which are, at the time of writing this, predominantly C/C++ and Java), where the symbols I thought were utilized the most are placed close to the strongest fingers (index and middle). The left half of the board is dedicated to numbers, symbols, and the function keys, depending on if the lower, raise, or adjust layers are activated respectively.
