@@ -65,14 +65,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 |-------+-----------+-----------+------+------+------|     |------+------+------+------+------+------|
 | Shift |     Z     |     X     |   C  |Insert|   B  |     |   #  |   *  |   ,  |   .  |   /  |  '   |
 |-------+-----------+-----------+------+------+------|     |------+------+------+------+------+------|
-| Ctrl  |Rec  Macro1|Rec  Macro2| Alt  |Lower |Space |     | Space|Raise | Left | Down |  Up  |Right |
+| Ctrl  |Rec  Macro1|Rec  Macro2| Alt  |Lower |Space |     | Space|Raise | Left |PgDown| PgUp |Right |
 `----------------------------------------------------'     `-----------------------------------------'
  */ 
 [_LOWER] = LAYOUT_ortho_4x12( \
   KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                   /**/                KC_EXLM, KC_AT,   KC_AMPR, KC_LPRN, KC_RPRN, KC_BSPC, \
   KC_DEL,  KC_6,    KC_7,    KC_8,    KC_9,    KC_0,                   /**/                KC_PLUS, KC_EQL,  KC_UNDS, KC_LBRC, KC_RBRC, KC_ENT,  \
   _______, _______, _______, _______, KC_INS,  _______,                /**/                KC_HASH, KC_ASTR, _______, _______, _______, _______, \
-  _______, _______, _______, _______, _______, _______,                /**/                _______, _______, _______, _______, _______, _______  \
+  _______, _______, _______, _______, _______, _______,                /**/                _______, _______, _______, KC_PGDN, KC_PGUP, _______  \
 ),
 
 /* Raise
